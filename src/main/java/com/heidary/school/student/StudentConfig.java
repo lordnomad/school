@@ -19,15 +19,13 @@ public class StudentConfig {
                     "mohammad",
                     "heidary",
                     "mhd@gmail.com",
-                    LocalDate.of(1992, JUNE, 19),
-                    30);
+                    LocalDate.of(1992, JUNE, 19));
 
             Student zahra = new Student(
                     "zahra",
                     "jafarian",
                     "zjafarian@gmail.com",
-                    LocalDate.of(1989, JUNE, 21),
-                    33);
+                    LocalDate.of(1989, JUNE, 21));
             repository.saveAll(List.of(mohammad,zahra));
         };
     }
