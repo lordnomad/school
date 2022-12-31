@@ -25,7 +25,7 @@ public class StudentConfig {
                     "zahra",
                     "jafarian",
                     "zjafarian@gmail.com",
-                    LocalDate.of(1989, JUNE, 21));
+                    LocalDate.of(1988, JUNE, 21));
             repository.saveAll(List.of(mohammad,zahra));
         };
     }
