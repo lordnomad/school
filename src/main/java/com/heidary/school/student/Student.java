@@ -1,9 +1,14 @@
 package com.heidary.school.student;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table
 public class Student {
     //fields
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String fName;
     private String lName;
