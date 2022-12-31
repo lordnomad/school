@@ -82,4 +82,17 @@ public class Student {
     public void setAge(Integer age) {
         this.age = age;
     }
+
+    //To String method
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", fName='" + fName + '\'' +
+                ", lName='" + lName + '\'' +
+                ", email='" + email + '\'' +
+                ", dob=" + dob +
+                ", age=" + age +
+                '}';
+    }
 }
